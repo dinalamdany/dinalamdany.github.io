@@ -1,0 +1,101 @@
+html, body {
+  height:100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#left-side{
+  height: 100%;
+  width: 24rem; 
+  background-position:center top; 
+  background-image: url('img/tree.jpg');
+  background-size: cover;
+  position: fixed;
+}
+
+#right-side{
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 26rem;
+  padding-right: 2rem;
+}
+#title {
+  display: table;
+  margin: 0 auto;
+}
+h2{
+  font-weight: 200;
+  font-size: 50px;
+  text-align: left; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: underline;
+  color: rgb(200,92,89);
+}
+
+a:hover {
+  color: #0c88f0;
+}
+
+p{
+  font-weight: 100;
+  font-size: 35px;
+  text-align: left;
+}
+#nav {
+  color: white;
+  font-weight:300;
+  letter-spacing: 1px;
+  font-size: 30px;
+  display: table;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  text-align:right; 
+  float: right;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav li {
+  padding: 2px;
+}
+
+.double-line {
+  width: 200px;
+  border-top: 3px solid rgb(200,92,89);
+  border-bottom: 3px solid rgb(200,92,89);
+  height: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: table;
+}
+
+#contact {
+  margin-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 6px;
+}
+
+#content{
+  height: 100%;
+  width:100%;
+  background-color: rgba(0,0,0,0.5);
+}
+#about{
+  padding-top:2em;
+}
