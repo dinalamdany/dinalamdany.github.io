@@ -27,10 +27,17 @@ html, body {
   display: table;
   margin: 0 auto;
 }
-h2{
+h1{
   font-weight: 200;
   font-size: 50px;
   text-align: left; 
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 25px;
+  text-align: left;
   margin: 0 auto;
 }
 a {
@@ -44,7 +51,7 @@ a:hover {
 
 p{
   font-weight: 100;
-  font-size: 35px;
+  font-size: 24px;
   text-align: left;
 }
 #nav {
@@ -67,17 +74,6 @@ p{
 
 #nav li {
   padding: 2px;
-}
-
-.double-line {
-  width: 200px;
-  border-top: 3px solid rgb(200,92,89);
-  border-bottom: 3px solid rgb(200,92,89);
-  height: 15px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin: 0 auto;
-  display: table;
 }
 
 #contact {
