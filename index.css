@@ -45,6 +45,9 @@ a {
   color: rgb(200,92,89);
 }
 
+h2 a{
+  text-decoration: none;
+}
 a:hover {
   color: #0c88f0;
 }
@@ -54,6 +57,11 @@ p{
   font-size: 24px;
   text-align: left;
 }
+
+#contact p{
+  margin: 0 auto;
+}
+
 #nav {
   color: white;
   font-weight:300;
@@ -77,6 +85,9 @@ p{
 }
 
 #contact {
+  margin-bottom: 20px;
+}
+#writing {
   margin-bottom: 20px;
 }
 ul{
