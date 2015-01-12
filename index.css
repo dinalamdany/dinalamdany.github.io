@@ -1,8 +1,8 @@
 html, body {
   height:100%;
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'Helvetica', sans-serif;
 }
@@ -23,50 +23,44 @@ html, body {
   padding-left: 26rem;
   padding-right: 2rem;
 }
+
 #title {
   display: table;
   margin: 0 auto;
 }
+
 h1{
-  font-weight: 200;
-  font-size: 50px;
+  font-weight: 100;
+  font-size: 3rem;
   text-align: left; 
-  margin: 0 auto;
+  margin: 0 0 0.5rem;
 }
 
-h2 {
+p, #writing li {
   font-weight: 200;
-  font-size: 25px;
+  font-size: 1.5rem;
   text-align: left;
   margin: 0 auto;
 }
+
 a {
   text-decoration: underline;
   color: rgb(200,92,89);
 }
 
-h2 a{
-  text-decoration: none;
-}
 a:hover {
   color: #0c88f0;
 }
 
-p{
-  font-weight: 100;
-  font-size: 24px;
-  text-align: left;
-}
-
-#contact p{
-  margin: 0 auto;
+#writing a {
+ text-decoration: none;
 }
 
 #nav {
   color: white;
   font-weight:300;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 1.9rem;
   display: table;
   margin: 0 auto;
   padding-top: 2rem;
@@ -81,21 +75,19 @@ p{
 }
 
 #nav li {
-  padding: 2px;
+  padding: 0.18rem;
 }
 
 #contact {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
-#writing {
-  margin-bottom: 20px;
-}
+
 ul{
   list-style-type: none;
 }
 
 li{
-  margin-bottom: 6px;
+  margin-bottom: 0.5rem;
 }
 
 #content{
@@ -103,6 +95,7 @@ li{
   width:100%;
   background-color: rgba(0,0,0,0.5);
 }
+
 #about{
   padding-top:2em;
 }
