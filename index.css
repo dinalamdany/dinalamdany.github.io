@@ -4,24 +4,8 @@ html, body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#left-side{
-  height: 100%;
-  width: 24rem; 
-  background-position:center top; 
-  background-image: url('img/tree.jpg');
-  background-size: cover;
-  position: fixed;
-}
-
-#right-side{
-  height: 100%;
-  float: left;
-  box-sizing: border-box;
-  padding-left: 26rem;
-  padding-right: 2rem;
+  font-family: "Raleway";
+  line-height: 1.65;
 }
 
 #title {
@@ -30,10 +14,14 @@ html, body {
 }
 
 h1{
-  font-weight: 400;
   font-size: 2.5rem;
-  text-align: left; 
-  margin: 0 0 0.5rem;
+  margin: 6rem 0 3rem;  
+}
+
+h1, h2 {
+  font-family: "Playfair Display";
+  font-weight: normal;
+  text-align: left;
 }
 
 p, #writing li {
@@ -76,34 +64,85 @@ a:hover {
   padding: 0.18rem;
 }
 
-#contact {
-  margin-bottom: 1rem;
-}
-
-ul{
-  list-style-type: none;
-}
-
 li{
   margin-bottom: 0.5rem;
 }
 
-#content{
-  height: 100%;
-  width:100%;
-  background-color: rgba(0,0,0,0.5);
+#about {
+  padding: 0;
 }
 
-#about{
-  padding-top:2em;
+ul {
+  margin: 0;
+  padding: 0 0 0 3rem;
+  list-style: disc;  
 }
 
-@media only screen and (max-width: 768px) {
-  #left-side {
-    display: none;
-   }
-     
+ul li {
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+.nav {
+  text-align: left;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  padding: 0 0 0.75rem;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+#left {
+  padding: 4rem;
+  display: inline-block;
+  float: left;
+}
+
+#left img {
+  border-radius: 50%;
+  display: block;
+  width: 8rem;
+  margin-bottom: 2rem;
+}
+
+#right-side {
+  box-sizing: border-box;
+  max-width: 35rem;
+  float: left;
+  height: auto;
+  display: inline-block;
+  padding: 0 0 6rem;
+}
+
+@media screen and (max-width: 960px) {
   #right-side {
-    padding-left: 1rem;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  #left {
+    padding: 0;
+  }
+
+  #left img {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+  }
+
+  .nav li {
+    display: inline-block;
+    float: left;
+    padding: 0 1rem 0 0;
   }
 }
